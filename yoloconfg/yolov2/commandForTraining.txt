@@ -1,0 +1,1 @@
+python3 flow --model cfg/yolov2c10.cfg --load bin/yolov2.weights --train --annotation annotations --dataset newDataset --gpu 1.0 --epoch 100 --batch 4
